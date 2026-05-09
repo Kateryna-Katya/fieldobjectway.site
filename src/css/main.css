@@ -66,6 +66,34 @@ width: 398px;
     .home-link {
         margin-top: 48px;
 margin-left: 0;
-        transition: transform 0.3s ease-in-out;
-    }
+}
+}
+/* HOW IT WORKS */
+.how-list{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.how-item{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.how-item-title{
+    font-family: "DM Sans", sans-serif;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 1.5;
+        color: #2b1f0e;
+}
+@media only screen and (min-width: 1440px) {
+.how-list{
+    flex-direction: row;
+}
+.how-item{
+    width: 352px;
+}
+.how-item-title{
+    font-size: 20px;
+}
 }

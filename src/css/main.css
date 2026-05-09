@@ -127,3 +127,44 @@ margin-left: 0;
     height: auto;
  }
 }
+/* TESTIMONIALS */
+.testimonials-section{
+    background-image: url("/img/testimonials/mob.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+.testimonials-container{
+    padding-right: 0;
+}
+.my-swiper .swiper-slide{
+    padding: 16px;
+        width: 300px;
+        height: 195px;
+background: #e8d5a3;
+}
+.author{
+    margin-top: 16px;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 1.5;
+        text-align: right;
+
+}
+@media only screen and (min-width: 1440px) {
+.testimonials-section {
+        background-image: url("/img/testimonials/desk.png");
+    }
+
+    .testimonials-container {
+        padding-right: 160px;
+    }
+
+    .my-swiper .swiper-slide {
+width: 352px;
+    height: 213px;
+}
+    .author {
+font-size: 20px;
+    }
+}
